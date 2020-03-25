@@ -41,7 +41,7 @@ public class ASayHelloController {
      */
     @RequestMapping("/age")
     public String age(String age){
-        return "I am"+ age + "years";
+        return "I am "+ age + " years old. .aaa";
     }
 
     @RequestMapping("/routeAll")
