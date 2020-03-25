@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- groupId + artifactId + version 三坐标 -->
+    <groupId>com.zxk</groupId>
+    <artifactId>springcloud-gateway-commons</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <!-- 模块 -->
+    <modules>
+        <module>springcloud-gateway-registry-service</module>
+        <module>springcloud-gateway-Aservice</module>
+        <module>springcloud-gateway-Bservice</module>
+        <module>springcloud-gateway-master-service</module>
+    </modules>
+
+    <!-- 工程名 + 描述-->
+    <name>springcloud-gateway-commons</name>
+    <description>公用工程</description>
+
+    <!--打包方式 父类型为pom -->
+    <packaging>pom</packaging>
+
+    <!--在properties 下声明的版本信息，然后在dependency下引用的时候用${} 即可引入对应的版本-->
+    <properties>
+        <!--项目构建编码格式-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- jdk 版本-->
+        <java.version>1.8</java.version>
+        <!--SpringBoot -->
+        <platform-bom.version>Cairo-SR3</platform-bom.version>
+        <!--SpringCloud -->
+        <spring-cloud-dependcies.version>Finchley.RELEASE</spring-cloud-dependcies.version>
+    </properties>
+
+    <!-- 依赖-->
+    <dependencies></dependencies>
+
+    <!--依赖jar包版本管理的管理器 -->
+    <!--如果dependencies里的dependency 自己没有声明 version 元素，那么maven 就此处来找版本声明 -->
+    <!--如果有，就会继承它，如果没有就会报错，告诉没有版本信息 -->
+    <!--优先级： 如果 dependencies 里的 dependency 已经声明了 版本信息，就不会生效此处的版本信息 -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.spring.platform</groupId>
+                <artifactId>platform-bom</artifactId>
+                <version>${platform-bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud-dependcies.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!--插件依赖 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+
+            </plugin>
+        </plugins>
+    </build>
+</project>

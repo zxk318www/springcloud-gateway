@@ -1,0 +1,51 @@
+#端口
+server:
+  port: 8008
+
+
+spring:
+  profiles:
+    #指定配置
+    active: route_simple
+
+
+---
+
+spring:
+  profiles: route_simple
+  application:
+    # 应用名称
+    name: gateway-master
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          # 是否和服务注册与发现组件结合，设置为true后可以直接使用应用服务名称调用服务
+          enabled: true
+      # 路由（routes: 路由，它有唯一标识（ID）、目标服务地址（uri）、一组断言（predicates）和一组过滤器组成（filters）,filters不是必需参数）
+      routes:
+          # 路由标识（id:标识，具有唯一性） 简单尝试
+        - id: route_simple
+          # 目标服务地址（uri：地址，请求转发后的地址）
+          uri: https://www.baidu.com
+          # 路由条件（predicates：断言，匹配 HTTP 请求内容）
+          predicates:
+            ## 转发地址格式为 uri/archive
+            - Path=/archive
+
+eureka:
+  instance:
+    # 实例的ID规则
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+    # 使用ip 代替实例名
+    prefer-ip-address: true
+    # 实例的主机名
+    hostname: ${spring.cloud.client.ip-address}
+  client:
+    service-url:
+      # 注册中心地址
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+logging:
+  level:
+    # log 级别
+    org.springframework.cloud.gateway: debug

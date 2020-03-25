@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1ef5824-85aa-4411-a43b-da3dc8531e4b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZbKvCpStQsfBecAEhyxAaRRN2x" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30659536" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zxk.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayMaster">
+    <configuration name="AServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-gateway-Aservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxk.AServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-gateway-Bservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxk.BServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayMaster" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-gateway-master-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxk.GatewayMaster" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-gateway-registry-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zxk.RegistryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayMaster" />
+        <item itemvalue="Spring Boot.BServiceApplication" />
+        <item itemvalue="Spring Boot.AServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.19606599" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Zhangsnke\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1ef5824-85aa-4411-a43b-da3dc8531e4b" name="Default Changelist" comment="" />
+      <created>1585102582123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585102582123</updated>
+      <workItem from="1585102586756" duration="1159000" />
+      <workItem from="1585103798315" duration="1206000" />
+      <workItem from="1585105094166" duration="6514000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="356" key="#Project_Structure" timestamp="1585106300802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="356" key="#Project_Structure/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585106300802" />
+    <state x="402" y="349" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585106286026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="402" y="349" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585106286026" />
+    <state x="1161" y="312" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585118063434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1161" y="312" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585118063434" />
+    <state width="1485" height="424" key="GridCell.Tab.0.bottom" timestamp="1585119083996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1485" height="424" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585119083996" />
+    <state width="1485" height="424" key="GridCell.Tab.0.center" timestamp="1585119083995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1485" height="424" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585119083995" />
+    <state width="1485" height="424" key="GridCell.Tab.0.left" timestamp="1585119083995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1485" height="424" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585119083995" />
+    <state width="1485" height="424" key="GridCell.Tab.0.right" timestamp="1585119083996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1485" height="424" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585119083996" />
+    <state width="1485" height="424" key="GridCell.Tab.1.bottom" timestamp="1585119083996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1485" height="424" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585119083996" />
+    <state width="1485" height="424" key="GridCell.Tab.1.center" timestamp="1585119083996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1485" height="424" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585119083996" />
+    <state width="1485" height="424" key="GridCell.Tab.1.left" timestamp="1585119083996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1485" height="424" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585119083996" />
+    <state width="1485" height="424" key="GridCell.Tab.1.right" timestamp="1585119083996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1485" height="424" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585119083996" />
+    <state x="366" y="265" width="1112" height="717" key="SettingsEditor" timestamp="1585105664993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="366" y="265" width="1112" height="717" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585105664993" />
+    <state x="616" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1585105094005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585105094005" />
+    <state x="571" y="253" key="new project wizard" timestamp="1585115592827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="571" y="253" key="new project wizard/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585115592827" />
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585116258785">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1585116258785" />
+  </component>
+</project>

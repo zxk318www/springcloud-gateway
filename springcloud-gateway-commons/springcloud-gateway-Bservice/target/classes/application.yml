@@ -1,0 +1,21 @@
+# 服务端口号
+server:
+  port: 9001
+
+# 应用名称
+spring:
+  application:
+    name: gateway-service-b
+
+eureka:
+  instance:
+    # 实例的主机名
+    hostname: ${spring.cloud.client.ip-address}
+    # 使用ip 代替实例名
+    prefer-ip-address: true
+    #实例的ID生成规则
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+  client:
+    service-url:
+      # 注册中心地址
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
